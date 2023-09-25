@@ -1,0 +1,133 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling for the app */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  /* Styling for the todo items */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Styling for the Edit and Delete buttons */
+  button.edit-button {
+    padding: 5px 10px;
+    background-color: #009933;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  button.edit-button:hover {
+    background-color: #00cc44;
+  }
+  
+  button.delete {
+    padding: 5px 10px;
+    background-color: #ff3333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  button.delete:hover {
+    background-color: #ff5555;
+  }
+  
+  /* Styling for the Edit input field and Save button */
+  input[type="text"].edit-input {
+    padding: 5px;
+    width: 60%;
+    border: 1px solid #009933;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 5px;
+    display: none;
+  }
+  
+  button.edit-save {
+    padding: 5px 10px;
+    background-color: #009933;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  button.edit-save:hover {
+    background-color: #00cc44;
+  }
+  
+  /* Styling for the Add button and input field */
+  form[action="/add"] {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  input[type="text"].add-input {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button.add {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button.add:hover {
+    background-color: #555;
+  }
+  
+  /* Styling for the overall layout */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Optional: Add hover effect to todos */
+  li:hover {
+    background-color: #f0f0f0;
+  }
+  
